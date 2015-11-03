@@ -1,0 +1,25 @@
+# To install android studio
+
+1. Download the zip file.
+2. Extract it to /opt folder.
+3. Got to the above directory, where you've extracted it.
+4. Run ./studio.sh in terminal.
+
+Note- The above process can be used for installation of any software.
+
+* Problems and solutions:
+
+P1) JDK not setup correctly.
+S1) Install the JDK from Oracle's site, change the Java home in android studio to OpenJDK's location.
+
+P2) Device not recognized.
+S2) Unplug the USB, plug it in again.
+
+
+
+# Command used for updating my Adobe Flash Plugin
+
+-> sudo apt-get update && sudo apt-get install -y flashplugin-installer
+
+
+
