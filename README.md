@@ -1,3 +1,3 @@
 # ubuntu-commands
 
-List of ubuntu commands, (This would be handy!)
+List of ubuntu commands. (This would be handy!)
