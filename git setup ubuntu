@@ -1,19 +1,22 @@
-1. git init - Intialize git.
+1. git init : Intialize git.
 
-2. git add. - Add all files and directories to repo.
+2. git add. : Add all files and directories to repo.
 
-3. git commit -m "Message" -a - Creates commit, with -m showing that there's a message to follow and -a is for applying the message to all files.
+3. git commit -m "Message" -a : Creates commit, with -m showing that there's a message to follow and -a is for applying the message to all files.
 
-4. git commit -m "message" filename - For creating commit for a particular file.
+4. git commit -m "message" filename : For creating commit for a particular file.
 
-5. git remote add origin "your_repo/repo.git" - To create a remote to push your git into.
+5. git remote add origin "your_repo/repo.git" : To create a remote to push your git into.
 
-6. git remote -v - To list master and origin url.
+6. git remote -v : To list master and origin url.
 
-7. git push origin master - To push all the files from origin to master.
+7. git push origin master : To push all the files from origin to master.
 
-8. git pull- To remove any incomplete commits. 
+8. git pull : To remove any incomplete commits. 
 
+9.git config --global credential.helper cache : Set git to use the credential memory cache
+
+10. git config --global credential.helper 'cache --timeout=3600' : Set the cache to timeout after 1 hour (setting is in seconds)
 
 
 
@@ -22,3 +25,5 @@ Link for commands:
 https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04
 
 https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively
+
+https://help.github.com/articles/caching-your-github-password-in-git/
